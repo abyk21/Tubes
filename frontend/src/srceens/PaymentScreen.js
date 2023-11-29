@@ -31,21 +31,41 @@ const PaymentScreen = {
             <div>
               <input type="radio"
               name="payment-method"
-              id="paypal"
-              value="Paypal"
+              id="Bank Transfer"
+              value="Bank Transfer"
               checked />
-              <label for="paypal" >PayPal</label>
+              <label for="Bank Transfer" >Bank Transfer</label>
              </div> 
           </li>
           <li>
           <div>
             <input type="radio"
             name="payment-method"
-            id="stripe"
-            value="Stripe"
+            id="Virtual Account"
+            value="Virtual Account"
              />
-            <label for="stripe" >Stripe</label>
+            <label for="Virtual Account" >Virtual Account</label>
            </div> 
+           </li>
+           <li>
+           <div>
+             <input type="radio"
+             name="payment-method"
+             id="E-Wallet"
+             value="E-Wallet"
+              />
+             <label for="E-Wallet" >E-Wallet</label>
+            </div> 
+            </li>
+            <li>
+            <div>
+              <input type="radio"
+              name="payment-method"
+              id="Cash on Delivery"
+              value="Cash on Delivery"
+               />
+              <label for="Cash on Delivery" >Cash on Delivery</label>
+             </div> 
         </li>
           <li>
             <button type="submit" class="primary">Continue</button>

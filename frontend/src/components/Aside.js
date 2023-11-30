@@ -2,7 +2,7 @@ const Aside = {
   render: async () => {
     return `
    <div class="aside-header">
-    <div>SHOP BY CATEGORY</div>
+    <div>BOOK CATEGORY</div>
     <button class="aside-close-button" id="aside-close-button">x</button>
   </div>
   <div class="aside-body">

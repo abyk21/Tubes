@@ -1,7 +1,7 @@
 {
-  "name": "jsamazona",
+  "name": "bookstore",
   "version": "1.0.0",
-  "description": "JS AMAZONA",
+  "description": "Toko buku ASA",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
